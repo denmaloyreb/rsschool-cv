@@ -77,7 +77,8 @@ a {
 
 .contacts__info-h2,
 .skills__title,
-.summary__title {
+.summary__title,
+.experience__title {
     text-align: center;
     margin-bottom: 15px;
     font-size: 45px;
@@ -86,6 +87,7 @@ a {
 .contacts__collumns {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contacts__collumn-img {
@@ -112,6 +114,7 @@ a {
 .skills__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .skills__item {
@@ -133,4 +136,31 @@ a {
     font-size: 20px;
     text-align: center;
     padding: 10px 5px;
+}
+
+.skills__examples-link {
+    text-decoration: underline;
+    color: blue;
+}
+
+.summary__list li {
+    position: relative;
+    padding-left: 50px;
+}
+
+.summary__list li::before {
+    content: '';
+    position: absolute;
+    background: url(img/tick.svg);
+    width: 25px;
+    height: 25px;
+    left: 15px;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.experiense__title-content {
+    margin-top: 15px;
 }
