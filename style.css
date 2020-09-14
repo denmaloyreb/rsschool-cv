@@ -76,7 +76,8 @@ a {
 }
 
 .contacts__info-h2,
-.summary__info {
+.skills__title,
+.summary__title {
     text-align: center;
     margin-bottom: 15px;
     font-size: 45px;
@@ -93,7 +94,7 @@ a {
 
 .contacts-photo {
     width: 100%;
-    border-radius: 200px;
+    border-radius: 135px;
 }
 
 .contacts__list-list {
@@ -106,4 +107,30 @@ a {
 
 .summary {
     margin-top: 50px;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__item {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    min-height: 180px;
+    border: 1px solid gray;
+}
+
+.skills__item-image {
+    padding-top: 10px;
+    max-width: 120px;
+}
+
+.skills__description {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 5px;
 }
