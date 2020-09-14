@@ -19,7 +19,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 32px;
     color: #000000;
     margin: 0 auto;
@@ -39,6 +39,10 @@ h6 {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #000000;
@@ -47,7 +51,8 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    ;
+    padding-right: 7px;
+    padding-left: 7px;
 }
 
 .header__menu-list {
@@ -66,7 +71,20 @@ a {
 .contacts__title {
     text-align: center;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.contacts__info-h2,
+.summary__info {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+.contacts__collumns {
+    display: flex;
+    justify-content: space-around;
 }
 
 .contacts__collumn-img {
@@ -75,10 +93,17 @@ a {
 
 .contacts-photo {
     width: 100%;
-    padding: 0 5px;
+    border-radius: 200px;
 }
 
-.contacts-photo {
-    width: 100%;
-    border-radius: 200px;
+.contacts__list-list {
+    line-height: 75px;
+}
+
+.contacts__list-item span {
+    font-weight: 600;
+}
+
+.summary {
+    margin-top: 50px;
 }
